@@ -1,0 +1,21 @@
+Clase del 17 de diciembre de 2025:
+Objetivos de aprendizaje
+1.      Conexión a un Broker desde Python.
+2.      Definir contratos de opciones sobre SPY y obtener una cadena de opciones (option chain).
+3.      Estimación de la volatilidad implícita a partir de precios de mercado.
+4.      Visualización de smiles y una mini-superficie de volatilidad (strike × vencimiento).
+5.      Calcular precio teórico y griegas (Δ, Γ, Θ, Vega, Rho) con vuestro propio código (p.ej. Black–Scholes) y comparación con los del Broker.
+6.      Representar la Evolución temporal histórica de la opción (griegas y payoff).
+7.      Diseño una función de cobertura. Comparar la posición cubierta vs expuesta (delta-hedging).
+8.      Simular el envío de una orden y de su cobertura. ¿Qué problemas pueden surgir?
+
+
+
+Clase del 14 de enero de 2026
+Objetivos de aprendizaje (ejercicio):
+1.      Construir una estrategia concreta con opciones: long straddle periódico sobre SPY.
+2.      Modificarla para obtener una versión delta-hedged (usando vuestras griegas) con el subyacente.
+3.      Analizar el P&L histórico de ambas versiones.
+4.      Simular envío de órdenes: como combo (straddle como una sola orden), y como patas sueltas (call y put por separado) analizando el riesgo de legging.
+5.      Ver cómo se puede neutralizar Delta con otra opción y qué implica para Gamma, Vega y Theta.
+6.      Reflexión: ¿qué habría cambiado usando SPX en lugar de SPY?
